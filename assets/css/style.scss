@@ -999,6 +999,11 @@ body {
 
 @media screen and (min-width: 1024px) and (min-width: 1366px) {
   // ipad-pro-129in
+}
 
-
+@media screen and (min-width: 438px) and (max-width: 767px) {
+  .wrapper {
+    background-size: cover;
+    background-position: 0;
+  }
 }

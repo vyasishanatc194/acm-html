@@ -888,4 +888,11 @@ body {
     line-height: 21px;
   }
 }
+
+@media screen and (min-width: 438px) and (max-width: 767px) {
+  .wrapper {
+    background-size: cover;
+    background-position: 0;
+  }
+}
 /*# sourceMappingURL=style.css.map */
