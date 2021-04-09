@@ -562,7 +562,7 @@ body {
           font-weight: 700;
           color: #fff;
           background: #c6b99e;
-          border: 5px solid transparent;
+          border: none;
           border-radius: 70px;
           outline: none;
           box-shadow: none;
@@ -948,31 +948,28 @@ body {
     background-image: none;
   }
 
-  .preset-step-root-section .preset-step-tab-list-root .preset-step-tab-list {
-    max-width: 100%;
-    padding: 0;
-    min-height: auto;
+  // .preset-step-root-section .preset-step-tab-list-root .preset-step-tab-list {
+  //   max-width: 100%;
+  //   padding: 0;
+  //   min-height: auto;
 
-    ul.preset-step-tab-list-ul {
-      min-height: 44px;
-      padding: 0 4px;
+  //   ul.preset-step-tab-list-ul {
+  //     min-height: 44px;
+  //     padding: 0 4px;
 
-      .pre-nav-item {
-        .btn-count {
-          position: relative;
-        }
+  //     .pre-nav-item {
+  //       .btn-count {
+  //         position: relative;
+  //       }
 
-        &.active {
-          .btn-count {
-            &::before {
-              left: -9px;
-              top: -9px; 
-            }
-          }
-        }
-      }
-    }
-  }
+  //       &.active {
+  //         &::before {
+             
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 @media screen and (max-width: 374px) {
