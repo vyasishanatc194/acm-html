@@ -753,6 +753,7 @@ body {
 }
 
 .preset-step-root-section .preset-step-tab-list-root ul.preset-step-tab-list-ul .pre-nav-item::before {
+  content: "";
   position: absolute;
   left: 36px;
   display: inline-block;
@@ -780,7 +781,6 @@ body {
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  display: inline-block;
 }
 
 .preset-step-root-section .preset-step-tab-list-root ul.preset-step-tab-list-ul .pre-nav-item .btn-count .ntxt {
