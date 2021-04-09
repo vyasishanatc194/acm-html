@@ -43,7 +43,7 @@ body {
   background-size: cover;
   background-position: right -60px;
   background-attachment: fixed;
-  background-color:#f1eee9;
+  background-color: #f1eee9;
   display: block;
   height: 100%;
   min-height: 100vh;
@@ -360,6 +360,11 @@ body {
         .abs-card-ps-bx02 {
           top: 89px;
           left: 792px;
+        }
+
+        .abs-card-ps-bx03 {
+          top: 40.5px;
+          right: 0;
         }
       }
     }
@@ -737,6 +742,10 @@ body {
     object-fit: contain;
     object-position: left;
   }
+
+  main.common-wrapper-area-main {
+    overflow-x: hidden;
+  }
 }
 
 @media screen and (max-width: 374px) {
@@ -744,6 +753,18 @@ body {
 
   .container {
     max-width: 327px;
+  }
+
+  .inline-mobile {
+    display: inline;
+  }
+
+  .transform-lower-mobile {
+    text-transform: lowercase;
+  }
+
+  .block-mobile01 {
+    display: block;
   }
 
   .wrapper {
@@ -912,6 +933,10 @@ body {
             top: 51px;
             left: 236px;
           }
+
+          .abs-card-ps-bx03 {
+            top: 19.5px;
+          }
         }
       }
     }
@@ -973,6 +998,14 @@ body {
 
   .container {
     max-width: 332px;
+  }
+
+  .inline-mobile {
+    display: inline;
+  }
+
+  .transform-lower-mobile {
+    text-transform: lowercase;
   }
 
   .wrapper {
@@ -1099,6 +1132,10 @@ body {
             top: 51px;
             left: 251px;
           }
+
+          .abs-card-ps-bx03 {
+            top: 19.5px;
+          }
         }
       }
     }
@@ -1185,15 +1222,15 @@ body {
           .preset-opt-card-bx-left {
             width: 102px;
           }
-  
+
           .preset-opt-card-bx-right {
             width: calc(100% - 102px);
           }
         }
-  
+
         .preset-opt-thumb-div {
           max-width: 102px;
-  
+
           .img-thumb-div {
             .img-preset-opt {
               width: 92px;
@@ -1201,7 +1238,7 @@ body {
             }
           }
         }
-  
+
         .text-desc-div {
           p {
             font-size: 12px;
@@ -1218,6 +1255,18 @@ body {
 
   .container {
     max-width: 348px;
+  }
+
+  .inline-mobile {
+    display: inline;
+  }
+
+  .transform-lower-mobile {
+    text-transform: lowercase;
+  }
+
+  .block-mobile01 {
+    display: block;
   }
 
   .wrapper {
@@ -1332,6 +1381,10 @@ body {
             top: 51px;
             left: 266px;
           }
+
+          .abs-card-ps-bx03 {
+            top: 19.5px;
+          }
         }
       }
     }
@@ -1418,15 +1471,15 @@ body {
           .preset-opt-card-bx-left {
             width: 120px;
           }
-  
+
           .preset-opt-card-bx-right {
             width: calc(100% - 120px);
           }
         }
-  
+
         .preset-opt-thumb-div {
           max-width: 120px;
-  
+
           .img-thumb-div {
             .img-preset-opt {
               width: 110px;
@@ -1434,7 +1487,7 @@ body {
             }
           }
         }
-  
+
         .text-desc-div {
           p {
             font-size: 12px;
@@ -1451,6 +1504,18 @@ body {
 
   .container {
     max-width: 368px;
+  }
+
+  .inline-mobile {
+    display: inline;
+  }
+
+  .transform-lower-mobile {
+    text-transform: lowercase;
+  }
+
+  .block-mobile01 {
+    display: block;
   }
 
   .wrapper {
@@ -1571,6 +1636,10 @@ body {
             top: 51px;
             left: 269px;
           }
+
+          .abs-card-ps-bx03 {
+            top: 19.5px;
+          }
         }
       }
     }
@@ -1669,6 +1738,18 @@ body {
 
   .container {
     max-width: 368px;
+  }
+
+  .inline-mobile {
+    display: inline;
+  }
+
+  .transform-lower-mobile {
+    text-transform: lowercase;
+  }
+
+  .block-mobile01 {
+    display: block;
   }
 
   .wrapper {
@@ -1789,6 +1870,10 @@ body {
             top: 52px;
             left: 286px;
           }
+
+          .abs-card-ps-bx03 {
+            top: 19.5px;
+          }
         }
       }
     }
@@ -1875,15 +1960,15 @@ body {
           .preset-opt-card-bx-left {
             width: 113px;
           }
-  
+
           .preset-opt-card-bx-right {
             width: calc(100% - 113px);
           }
         }
-  
+
         .preset-opt-thumb-div {
           max-width: 113px;
-  
+
           .img-thumb-div {
             .img-preset-opt {
               width: 103px;
@@ -1891,7 +1976,7 @@ body {
             }
           }
         }
-  
+
         .text-desc-div {
           p {
             font-size: 12px;
@@ -1908,6 +1993,18 @@ body {
 
   .container {
     max-width: 368px;
+  }
+
+  .inline-mobile {
+    display: inline;
+  }
+
+  .transform-lower-mobile {
+    text-transform: lowercase;
+  }
+
+  .block-mobile01 {
+    display: block;
   }
 
   .wrapper {
@@ -2028,6 +2125,10 @@ body {
             top: 52px;
             left: 288px;
           }
+
+          .abs-card-ps-bx03 {
+            top: 19.5px;
+          }
         }
       }
     }
@@ -2114,15 +2215,15 @@ body {
           .preset-opt-card-bx-left {
             width: 110px;
           }
-  
+
           .preset-opt-card-bx-right {
             width: calc(100% - 110px);
           }
         }
-  
+
         .preset-opt-thumb-div {
           max-width: 110px;
-  
+
           .img-thumb-div {
             .img-preset-opt {
               width: 100px;
@@ -2130,7 +2231,7 @@ body {
             }
           }
         }
-  
+
         .text-desc-div {
           p {
             font-size: 12px;
@@ -2147,6 +2248,18 @@ body {
 
   .container {
     max-width: 372px;
+  }
+
+  .inline-mobile {
+    display: inline;
+  }
+
+  .transform-lower-mobile {
+    text-transform: lowercase;
+  }
+
+  .block-mobile01 {
+    display: block;
   }
 
   .wrapper {
@@ -2261,6 +2374,10 @@ body {
             top: 51px;
             left: 290px;
           }
+
+          .abs-card-ps-bx03 {
+            top: 19.5px;
+          }
         }
       }
     }
@@ -2347,15 +2464,15 @@ body {
           .preset-opt-card-bx-left {
             width: 110px;
           }
-  
+
           .preset-opt-card-bx-right {
             width: calc(100% - 110px);
           }
         }
-  
+
         .preset-opt-thumb-div {
           max-width: 110px;
-  
+
           .img-thumb-div {
             .img-preset-opt {
               width: 100px;
@@ -2363,7 +2480,7 @@ body {
             }
           }
         }
-  
+
         .text-desc-div {
           p {
             font-size: 12px;
@@ -2380,6 +2497,18 @@ body {
 
   .container {
     max-width: 384px;
+  }
+
+  .inline-mobile {
+    display: inline;
+  }
+
+  .transform-lower-mobile {
+    text-transform: lowercase;
+  }
+
+  .block-mobile01 {
+    display: block;
   }
 
   .wrapper {
@@ -2493,6 +2622,10 @@ body {
           .abs-card-ps-bx02 {
             top: 51px;
             left: 305px;
+          }
+
+          .abs-card-ps-bx03 {
+            top: 19.5px;
           }
         }
       }
@@ -2643,6 +2776,10 @@ body {
             top: 64px;
             left: 592px;
           }
+
+          .abs-card-ps-bx03 {
+            top: 27.5px;
+          }
         }
       }
     }
@@ -2707,6 +2844,10 @@ body {
           .abs-card-ps-bx02 {
             top: 67px;
             left: 617px;
+          }
+
+          .abs-card-ps-bx03 {
+            top: 26.5px;
           }
         }
       }
@@ -2773,6 +2914,10 @@ body {
             top: 70px;
             left: 643px;
           }
+
+          .abs-card-ps-bx03 {
+            top: 37.5px;
+          }
         }
       }
     }
@@ -2825,6 +2970,10 @@ body {
           .abs-card-ps-bx02 {
             top: 73px;
             left: 718px;
+          }
+
+          .abs-card-ps-bx03 {
+            top: 39.5px;
           }
         }
       }
@@ -2882,6 +3031,10 @@ body {
           .abs-card-ps-bx02 {
             top: 87px;
             left: 762px;
+          }
+
+          .abs-card-ps-bx03 {
+            top: 44.5px;
           }
         }
       }

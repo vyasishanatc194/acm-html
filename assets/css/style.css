@@ -550,6 +550,11 @@ body {
   left: 792px;
 }
 
+.banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx03 {
+  top: 40.5px;
+  right: 0;
+}
+
 .content-root-section {
   padding: 27px 0 127px 0;
   margin: 0;
@@ -969,11 +974,23 @@ body {
     -o-object-position: left;
        object-position: left;
   }
+  main.common-wrapper-area-main {
+    overflow-x: hidden;
+  }
 }
 
 @media screen and (max-width: 374px) {
   .container {
     max-width: 327px;
+  }
+  .inline-mobile {
+    display: inline;
+  }
+  .transform-lower-mobile {
+    text-transform: lowercase;
+  }
+  .block-mobile01 {
+    display: block;
   }
   .wrapper {
     background-size: 492px;
@@ -1093,6 +1110,9 @@ body {
     top: 51px;
     left: 236px;
   }
+  .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx03 {
+    top: 19.5px;
+  }
   .preset-step-root-section .preset-step-tab-list-root {
     margin: 0 0 22px 0;
   }
@@ -1123,6 +1143,12 @@ body {
 @media screen and (min-width: 375px) and (max-width: 389px) {
   .container {
     max-width: 332px;
+  }
+  .inline-mobile {
+    display: inline;
+  }
+  .transform-lower-mobile {
+    text-transform: lowercase;
   }
   .wrapper {
     background-size: 492px;
@@ -1215,6 +1241,9 @@ body {
     top: 51px;
     left: 251px;
   }
+  .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx03 {
+    top: 19.5px;
+  }
   .content-root-section {
     padding: 27px 0 27px 0;
   }
@@ -1282,6 +1311,15 @@ body {
 @media screen and (min-width: 390px) and (max-width: 392px) {
   .container {
     max-width: 348px;
+  }
+  .inline-mobile {
+    display: inline;
+  }
+  .transform-lower-mobile {
+    text-transform: lowercase;
+  }
+  .block-mobile01 {
+    display: block;
   }
   .wrapper {
     background-size: 492px;
@@ -1364,6 +1402,9 @@ body {
     top: 51px;
     left: 266px;
   }
+  .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx03 {
+    top: 19.5px;
+  }
   .content-root-section {
     padding: 27px 0 27px 0;
   }
@@ -1431,6 +1472,15 @@ body {
 @media screen and (min-width: 393px) and (max-width: 410px) {
   .container {
     max-width: 368px;
+  }
+  .inline-mobile {
+    display: inline;
+  }
+  .transform-lower-mobile {
+    text-transform: lowercase;
+  }
+  .block-mobile01 {
+    display: block;
   }
   .wrapper {
     background-size: 492px;
@@ -1516,6 +1566,9 @@ body {
     top: 51px;
     left: 269px;
   }
+  .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx03 {
+    top: 19.5px;
+  }
   .content-root-section {
     padding: 27px 0 27px 0;
   }
@@ -1570,6 +1623,15 @@ body {
 @media screen and (min-width: 411px) and (max-width: 411px) {
   .container {
     max-width: 368px;
+  }
+  .inline-mobile {
+    display: inline;
+  }
+  .transform-lower-mobile {
+    text-transform: lowercase;
+  }
+  .block-mobile01 {
+    display: block;
   }
   .wrapper {
     background-size: 492px;
@@ -1655,6 +1717,9 @@ body {
     top: 52px;
     left: 286px;
   }
+  .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx03 {
+    top: 19.5px;
+  }
   .content-root-section {
     padding: 27px 0 27px 0;
   }
@@ -1722,6 +1787,15 @@ body {
 @media screen and (min-width: 412px) and (max-width: 413px) {
   .container {
     max-width: 368px;
+  }
+  .inline-mobile {
+    display: inline;
+  }
+  .transform-lower-mobile {
+    text-transform: lowercase;
+  }
+  .block-mobile01 {
+    display: block;
   }
   .wrapper {
     background-size: 492px;
@@ -1807,6 +1881,9 @@ body {
     top: 52px;
     left: 288px;
   }
+  .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx03 {
+    top: 19.5px;
+  }
   .content-root-section {
     padding: 27px 0 27px 0;
   }
@@ -1874,6 +1951,15 @@ body {
 @media screen and (min-width: 414px) and (max-width: 427px) {
   .container {
     max-width: 372px;
+  }
+  .inline-mobile {
+    display: inline;
+  }
+  .transform-lower-mobile {
+    text-transform: lowercase;
+  }
+  .block-mobile01 {
+    display: block;
   }
   .wrapper {
     background-size: 492px;
@@ -1956,6 +2042,9 @@ body {
     top: 51px;
     left: 290px;
   }
+  .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx03 {
+    top: 19.5px;
+  }
   .content-root-section {
     padding: 27px 0 27px 0;
   }
@@ -2023,6 +2112,15 @@ body {
 @media screen and (min-width: 428px) and (max-width: 767px) {
   .container {
     max-width: 384px;
+  }
+  .inline-mobile {
+    display: inline;
+  }
+  .transform-lower-mobile {
+    text-transform: lowercase;
+  }
+  .block-mobile01 {
+    display: block;
   }
   .wrapper {
     background-size: 495px;
@@ -2104,6 +2202,9 @@ body {
   .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx02 {
     top: 51px;
     left: 305px;
+  }
+  .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx03 {
+    top: 19.5px;
   }
   .content-root-section {
     padding: 27px 0 27px 0;
@@ -2194,6 +2295,9 @@ body {
     top: 64px;
     left: 592px;
   }
+  .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx03 {
+    top: 27.5px;
+  }
   .preset-step-root-section .preset-step-tab-list-root .preset-step-tab-list {
     max-width: 446px;
   }
@@ -2232,6 +2336,9 @@ body {
   .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx02 {
     top: 67px;
     left: 617px;
+  }
+  .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx03 {
+    top: 26.5px;
   }
   .preset-step-root-section .preset-step-tab-list-root .preset-step-tab-list {
     max-width: 484px;
@@ -2272,6 +2379,9 @@ body {
     top: 70px;
     left: 643px;
   }
+  .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx03 {
+    top: 37.5px;
+  }
   .preset-step-root-section .preset-step-tab-list-root .preset-step-tab-list {
     max-width: 508px;
   }
@@ -2300,6 +2410,9 @@ body {
   .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx02 {
     top: 73px;
     left: 718px;
+  }
+  .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx03 {
+    top: 39.5px;
   }
   .preset-step-root-section .preset-step-tab-list-root .preset-step-tab-list {
     max-width: 428px;
@@ -2332,6 +2445,9 @@ body {
   .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx02 {
     top: 87px;
     left: 762px;
+  }
+  .banner-root-section .banner-root-div .img-banner-div .box-abs-root .abs-card-ps-bx03 {
+    top: 44.5px;
   }
   .preset-step-root-section .preset-step-tab-list-root .preset-step-tab-list {
     max-width: 456px;
