@@ -735,6 +735,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .preset-step-root-section .preset-step-tab-list-root ul.preset-step-tab-list-ul .pre-nav-item::before {
