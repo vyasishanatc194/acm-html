@@ -917,11 +917,6 @@ body {
   main.common-wrapper-area-main {
     overflow-x: hidden;
   }
-
-  body {
-    background: url(../images/background/background.jpg) no-repeat;
-    background-size: cover;
-  }
 }
 
 @media (max-width: 767px) {
@@ -931,6 +926,26 @@ body {
         min-width: 229px;
       }
     }
+  }
+
+  .body-background-img-div {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+
+    .img-fluid {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .wrapper {
+    background-size: cover;
+    background-position: 0;
+    background-image: none;
   }
 }
 
