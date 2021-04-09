@@ -43,7 +43,7 @@ body {
   background-size: cover;
   background-position: right -60px;
   background-attachment: fixed;
-  background-color: #fff;
+  background-color:#f1eee9;
   display: block;
   height: 100%;
   min-height: 100vh;
@@ -687,10 +687,11 @@ body {
         .ic_keyboard_arrow_left {
           width: 8px;
           height: 13px;
+          margin: 0 16px -1px 0;
         }
 
         .text-span {
-          padding: 0 0 0 16px;
+          padding: 0;
         }
       }
 
@@ -700,10 +701,11 @@ body {
         .ic_keyboard_arrow_next {
           width: 8px;
           height: 13px;
+          margin: 0 0 -1px 16px;
         }
 
         .text-span {
-          padding: 0 16px 0 0;
+          padding: 0;
         }
       }
     }
@@ -1175,6 +1177,40 @@ body {
       }
     }
   }
+
+  .preset-opt-main-live-div {
+    .preset-opt-root-div {
+      .preset-opt-card-bx {
+        .preset-opt-card-bx-row {
+          .preset-opt-card-bx-left {
+            width: 102px;
+          }
+  
+          .preset-opt-card-bx-right {
+            width: calc(100% - 102px);
+          }
+        }
+  
+        .preset-opt-thumb-div {
+          max-width: 92px;
+  
+          .img-thumb-div {
+            .img-preset-opt {
+              width: 92px;
+              height: 88px;
+            }
+          }
+        }
+  
+        .text-desc-div {
+          p {
+            font-size: 12px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 390px) and (max-width: 392px) {
@@ -1369,6 +1405,40 @@ body {
             height: 2px;
             width: 127px;
             background-size: cover;
+          }
+        }
+      }
+    }
+  }
+
+  .preset-opt-main-live-div {
+    .preset-opt-root-div {
+      .preset-opt-card-bx {
+        .preset-opt-card-bx-row {
+          .preset-opt-card-bx-left {
+            width: 120px;
+          }
+  
+          .preset-opt-card-bx-right {
+            width: calc(100% - 120px);
+          }
+        }
+  
+        .preset-opt-thumb-div {
+          max-width: 110px;
+  
+          .img-thumb-div {
+            .img-preset-opt {
+              width: 110px;
+              height: 96px;
+            }
+          }
+        }
+  
+        .text-desc-div {
+          p {
+            font-size: 12px;
+            line-height: 18px;
           }
         }
       }
@@ -1583,27 +1653,6 @@ body {
   .preset-opt-main-live-div {
     .preset-opt-root-div {
       .preset-opt-card-bx {
-        .preset-opt-card-bx-row {
-          .preset-opt-card-bx-left {
-            width: 110px;
-          }
-  
-          .preset-opt-card-bx-right {
-            width: calc(100% - 110px);
-          }
-        }
-  
-        .preset-opt-thumb-div {
-          max-width: 100px;
-  
-          .img-thumb-div {
-            .img-preset-opt {
-              width: 100px;
-              height: 96px;
-            }
-          }
-        }
-  
         .text-desc-div {
           p {
             font-size: 12px;
@@ -2290,6 +2339,40 @@ body {
       }
     }
   }
+
+  .preset-opt-main-live-div {
+    .preset-opt-root-div {
+      .preset-opt-card-bx {
+        .preset-opt-card-bx-row {
+          .preset-opt-card-bx-left {
+            width: 110px;
+          }
+  
+          .preset-opt-card-bx-right {
+            width: calc(100% - 110px);
+          }
+        }
+  
+        .preset-opt-thumb-div {
+          max-width: 100px;
+  
+          .img-thumb-div {
+            .img-preset-opt {
+              width: 100px;
+              height: 96px;
+            }
+          }
+        }
+  
+        .text-desc-div {
+          p {
+            font-size: 12px;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 428px) and (max-width: 767px) {
@@ -2484,6 +2567,19 @@ body {
             height: 2px;
             width: 127px;
             background-size: cover;
+          }
+        }
+      }
+    }
+  }
+
+  .preset-opt-main-live-div {
+    .preset-opt-root-div {
+      .preset-opt-card-bx {
+        .text-desc-div {
+          p {
+            font-size: 12px;
+            line-height: 18px;
           }
         }
       }
@@ -2742,6 +2838,10 @@ body {
       }
     }
   }
+
+  .preset-step-height-mix {
+    min-height: calc(100vh - 550px);
+  }
 }
 
 @media screen and (min-width: 960px) and (max-width: 1023px) {
@@ -2794,6 +2894,10 @@ body {
         max-width: 456px;
       }
     }
+  }
+
+  .preset-step-height-mix {
+    min-height: calc(100vh - 570px);
   }
 }
 
