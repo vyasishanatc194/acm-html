@@ -648,6 +648,7 @@ body {
         justify-content: flex-start;
         margin: 0 auto 5px auto;
         max-width: 120px;
+        position: relative;
 
         .img-thumb-div {
           display: flex;
@@ -659,6 +660,39 @@ body {
             width: 110px;
             height: 106px;
             object-fit: cover;
+          }
+        }
+
+        .overlay-img-div {
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: #00000066;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+          opacity: 0;
+          transform: scale(0);
+          transition: all 0.2s;
+
+          .btn-span-rounded {
+            background: #FFAC04;
+            height: 30px;
+            width: 30px;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+
+        &.active {
+          .overlay-img-div {
+            opacity: 1;
+            transform: scale(1);
           }
         }
       }
@@ -716,6 +750,7 @@ body {
       justify-content: center;
       margin: 0 auto 12px auto;
       max-width: 157px;
+      position: relative;
 
       .img-thumb-div {
         display: flex;
@@ -727,6 +762,39 @@ body {
           width: 147px;
           height: 141px;
           object-fit: cover;
+        }
+      }
+
+      .overlay-img-div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #00000066;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        opacity: 0;
+        transform: scale(0);
+        transition: all 0.2s;
+
+        .btn-span-rounded {
+          background: #FFAC04;
+          height: 30px;
+          width: 30px;
+          border-radius: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
+      &.active {
+        .overlay-img-div {
+          opacity: 1;
+          transform: scale(1);
         }
       }
     }
