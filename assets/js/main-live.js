@@ -102,9 +102,9 @@ $(document).ready(function () {
     ReadMoreLessFunction();
   }
 
-  $(window).on("resize", function () {
-    resizeFunction();
-  });
+  // $(window).on("resize", function () {
+  //   resizeFunction();
+  // });
 
   resizeFunction();
 
