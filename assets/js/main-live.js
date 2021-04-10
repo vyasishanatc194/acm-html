@@ -106,6 +106,7 @@ $(document).ready(function () {
   //   resizeFunction();
   // });
 
+  
   resizeFunction();
 
   $(".morelink").click(function () {
