@@ -1,7 +1,7 @@
 $(document).ready(function () {
-  var showChar = 704; // How many characters are shown by default
+  var showChar = 702; // How many characters are shown by default
 
-  var ellipsestext = "";
+  var ellipsestext = "...";
   var moretext = "Read More";
   var lesstext = "Read Less";
 
@@ -113,9 +113,11 @@ $(document).ready(function () {
     if ($(this).hasClass("less")) {
       $(this).removeClass("less");
       $(this).html(moretext);
+      $(this).parent().parent().parent().removeClass("more-text");
     } else {
       $(this).addClass("less");
       $(this).html(lesstext);
+      $(this).parent().parent().parent().addClass("more-text");
     }
     $(this).parent().prev().toggle();
     $(this).prev().toggle();

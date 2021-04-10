@@ -406,6 +406,10 @@ body {
   display: block;
 }
 
+.more-text .moreellipses {
+  display: none;
+}
+
 .btn-more-div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1309,6 +1313,9 @@ body {
   .inline-mobile {
     display: inline;
   }
+  .preset-step-height-mix {
+    min-height: calc(100vh - 390px);
+  }
   .transform-lower-mobile {
     text-transform: lowercase;
   }
@@ -1535,6 +1542,9 @@ body {
   }
   .inline-mobile {
     display: inline;
+  }
+  .preset-step-height-mix {
+    min-height: calc(100vh - 390px);
   }
   .transform-lower-mobile {
     text-transform: lowercase;
@@ -1767,6 +1777,9 @@ body {
   .inline-mobile {
     display: inline;
   }
+  .preset-step-height-mix {
+    min-height: calc(100vh - 390px);
+  }
   .transform-lower-mobile {
     text-transform: lowercase;
   }
@@ -1991,6 +2004,9 @@ body {
   .inline-mobile {
     display: inline;
   }
+  .preset-step-height-mix {
+    min-height: calc(100vh - 390px);
+  }
   .transform-lower-mobile {
     text-transform: lowercase;
   }
@@ -2204,6 +2220,9 @@ body {
   }
   .inline-mobile {
     display: inline;
+  }
+  .preset-step-height-mix {
+    min-height: calc(100vh - 390px);
   }
   .transform-lower-mobile {
     text-transform: lowercase;
@@ -2432,6 +2451,9 @@ body {
   .inline-mobile {
     display: inline;
   }
+  .preset-step-height-mix {
+    min-height: calc(100vh - 390px);
+  }
   .transform-lower-mobile {
     text-transform: lowercase;
   }
@@ -2656,6 +2678,9 @@ body {
   .inline-mobile {
     display: inline;
   }
+  .preset-step-height-mix {
+    min-height: calc(100vh - 390px);
+  }
   .transform-lower-mobile {
     text-transform: lowercase;
   }
@@ -2879,6 +2904,9 @@ body {
   }
   .inline-mobile {
     display: inline;
+  }
+  .preset-step-height-mix {
+    min-height: calc(100vh - 390px);
   }
   .transform-lower-mobile {
     text-transform: lowercase;
